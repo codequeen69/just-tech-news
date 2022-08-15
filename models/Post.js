@@ -34,6 +34,7 @@ Post.init(
     {
         sequelize,
         freezeTableName: true,
+        //underscore set to true otherwise sequelize names columns in camelcase by default
         underscored: true,
         modelName: 'post'
     }
