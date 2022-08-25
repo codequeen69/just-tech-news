@@ -1,0 +1,8 @@
+<ol class="post-list">
+  <!--posts is from the posts array in home-routes and as post means each loop shows a post-->
+{{#each posts as |post|}}
+  <li>
+{{>post-info post}}
+  </li>
+  {{/each}}
+</ol>
